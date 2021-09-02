@@ -1,2 +1,2 @@
 # Cestimii
-Curvature Estimation using Integral Invariants
+Curvature Estimation using Integral Invariants.
