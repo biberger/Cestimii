@@ -11,6 +11,12 @@ As choosing an appropriate scale can be difficult, Cestimii contains a method to
 ## Installation
 Currently, only the code itself is contained in here. In the upcoming days, a proper installation guide and a Python package will follow.
 
+## Dependencies
+Cestimii depends on the following libraries
+* for calculations: [NumPy](https://github.com/numpy/numpy), [SciPy](https://github.com/scipy/scipy),
+* for visualisations (optional): [matplotlib](https://github.com/matplotlib/matplotlib), [napari](https://github.com/napari/napari),
+* for the processing of image stacks (optional): PIL ([Pillow](https://github.com/python-pillow/Pillow)), [h5py](https://github.com/h5py/h5py).
+
 ## FAQ
 TBD.
 
