@@ -21,7 +21,7 @@ Cestimii depends on the following libraries
 TBD.
 
 ## Images
-The following two images show the mean curvature estimations using the regular and multiple scales at once curvature estimation framework with relaxed occupancy grids for scales r=15 and r=18,20,22,...,30.
+The following two images show the mean curvature estimations using the regular and multiple scales at once curvature estimation framework with relaxed occupancy grids for scales r=15 and r=18,20,22,...,30. The images show two separate parts of a segmented cell membrane dataset provided by Diz-Muñoz, EMBL Heidelberg. 
 
 ![Mean Curvatures for r=15](https://user-images.githubusercontent.com/89973708/132211418-41dbc97c-1138-48b1-b18b-8991d5ff8c87.png)
 ![Mean Curvatures for r=18,20,22,...,30](https://user-images.githubusercontent.com/89973708/132211425-ad8a623a-36ee-4e30-b62a-f91297d96fdf.png)
