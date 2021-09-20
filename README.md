@@ -9,7 +9,16 @@ The step to go from a set of surface-covering cubes to a set of occupancy grids 
 As choosing an appropriate scale can be difficult, Cestimii contains a method to efficiently average results over multiple scales at once by reprocessing results from lower scales.
 
 ## Installation
-Currently, only the code itself is contained in here. In the upcoming days, a proper installation guide and a Python package will follow.
+The easiest way to install cestimii is to use the package manager pip for the installation:
+```
+pip install git+https://github.com/uhlmanngroup/Cestimii.git#egg=cestimii
+```
+Additionally, a popular method to manage and use Python is by using [Anaconda](https://docs.anaconda.com/anaconda/install/index.html). As cestimii does not have special dependencies, it can be added to most conda environments with the same command as above. If you would like to create a new environment specifically for cestimii, you can execute the following three commands separately in the Anaconda Shell:
+```
+conda create --name Cestimii python=3.8
+conda activate Cestimii
+pip install git+https://github.com/uhlmanngroup/Cestimii.git#egg=cestimii
+```
 
 ## Dependencies
 Cestimii depends on the following libraries
