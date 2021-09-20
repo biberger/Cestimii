@@ -16,16 +16,13 @@ import time
 import warnings
 import numpy as np
 import scipy.ndimage as nd
-#import scipy.signal as sg
 
 #these three imports are only necessary for imgstack method
 from PIL import Image
 import h5py
 import os
 
-#from math import ceil, log
-
-import geomshapes as gs
+import cestimii.geomshapes as gs
 
 def constructoccgrid_sphere(r=6, samp=0):
     """

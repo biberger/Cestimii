@@ -13,16 +13,12 @@ gaussian curvature, etc. .
 """
 
 import time
-#import warnings
 import numpy as np
 import scipy.ndimage as nd
 import scipy.signal as sg
 
-#from math import ceil, log
-
-#import geomshapes as gs
-import occupancygrids as og
-import split
+import cestimii.occupancygrids as og
+import cestimii.split as split
 
 def cepca_discreteconvolution(OGD, OGB, xcoords, ycoords, zcoords,
                               cm, debug=0):

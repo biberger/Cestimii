@@ -13,15 +13,9 @@ gaussian curvature, etc. .
 """
 
 import time
-#import warnings
 import numpy as np
-#import scipy.ndimage as nd
-#import scipy.signal as sg
 
 from math import ceil, log
-
-#import geomshapes as gs
-#import occupancygrids as og
 
 def spbs_handleinput_pointcloud(inp, lex, rg, ocg, debug=0):
     """
