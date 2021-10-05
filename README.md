@@ -1,5 +1,5 @@
 # Cestimii
-[![DOI]()]()
+[![DOI](https://zenodo.org/badge/408471581.svg)](https://zenodo.org/badge/latestdoi/408471581)
 ## Multiscale Curvature Estimation using Integral Invariants.
 
 This Python library was made as part of the Master's thesis "Integral Invariants for Multiscale Curvature Estimations on Cell Membranes" by Simon Biberger. It contains the implementation of the paper "Principal curvatures from the integral invariant viewpoint" by Helmut Pottmann, Johannes Wallner, Yong-Liang Yang, Yu-Kun Lai, and Shi-Min Huc from 2007 ([doi](https://doi.org/10.1016/j.cagd.2007.07.004)). Additionally, their idea of splitting occupancy grids was formalised in the thesis and two algorithms for occupancy grid splitting were proposed: 
@@ -61,8 +61,8 @@ You can also use the BibTeX below:
   author = {Simon Biberger},
   title = {Cestimii: A Multiscale Curvature Estimation Framework for Python},
   url = {https://github.com/uhlmanngroup/Cestimii},
-  version = {0.8},
-  doi = {},
+  version = {0.7},
+  doi = {10.5281/zenodo.5551069},
   date = {2021-10-05},
 }
 ```
