@@ -19,6 +19,11 @@ conda create --name Cestimii python=3.8
 conda activate Cestimii
 pip install git+https://github.com/uhlmanngroup/Cestimii.git#egg=cestimii
 ```
+You can test if the installation worked correctly by executing the _test.py_ script in the scripts folder. I.e. just _cd_ into the correct folder and execute
+```
+python test.py
+```
+On slow machines, this might take a few minutes as it is calculating a wide variety of curvature estimations.
 
 ## Dependencies
 Cestimii depends on the following libraries
