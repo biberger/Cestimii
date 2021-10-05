@@ -51,7 +51,7 @@ This project was supported by a fellowship within the IFI programme of the Germa
 ## Citing _cestimii_
 If you find _cestimii_ useful please cite this repository using its DOI as follows:
 
-    Simon Biberger (2021). cestimii: a multiscale curvature estimation framework for python. doi:
+    Simon Biberger (2021). cestimii: a multiscale curvature estimation framework for python. doi: 10.5281/zenodo.5551069
 
 Note this DOI will resolve to all versions of napari-ccp4map. To cite a specific version please find the DOI of that version on our zenodo page. The DOI of the latest version is in the badge at the top of this page.
 
