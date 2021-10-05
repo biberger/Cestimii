@@ -1,4 +1,5 @@
 # Cestimii
+[![DOI]()]()
 ## Multiscale Curvature Estimation using Integral Invariants.
 
 This Python library was made as part of the Master's thesis "Integral Invariants for Multiscale Curvature Estimations on Cell Membranes" by Simon Biberger. It contains the implementation of the paper "Principal curvatures from the integral invariant viewpoint" by Helmut Pottmann, Johannes Wallner, Yong-Liang Yang, Yu-Kun Lai, and Shi-Min Huc from 2007 ([doi](https://doi.org/10.1016/j.cagd.2007.07.004)). Additionally, their idea of splitting occupancy grids was formalised in the thesis and two algorithms for occupancy grid splitting were proposed: 
@@ -25,6 +26,9 @@ python test.py
 ```
 On slow machines, this might take a few minutes as it is calculating a wide variety of curvature estimations.
 
+## Usage
+Please refer to the [Wiki](https://github.com/uhlmanngroup/Cestimii/wiki).
+
 ## Dependencies
 Cestimii depends on the following libraries
 * for calculations: [NumPy](https://github.com/numpy/numpy), [SciPy](https://github.com/scipy/scipy),
@@ -43,3 +47,22 @@ The following two images show the mean curvature estimations using the regular a
 ## Acknowledgements
 I would like to express my deepest appreciation to Brigitte Forster-Heinlein from the University of Passau and Virginie Uhlmann from EMBL-EBI for their continuous support, invaluable advice and excellent feedback. 
 This project was supported by a fellowship within the IFI programme of the German Academic Exchange Service.
+
+## Citing _cestimii_
+If you find _cestimii_ useful please cite this repository using its DOI as follows:
+
+    Simon Biberger (2021). cestimii: a multiscale curvature estimation framework for python. doi:
+
+Note this DOI will resolve to all versions of napari-ccp4map. To cite a specific version please find the DOI of that version on our zenodo page. The DOI of the latest version is in the badge at the top of this page.
+
+You can also use the BibTeX below:
+```
+@software{cestimii,
+  author = {Simon Biberger},
+  title = {Cestimii: A Multiscale Curvature Estimation Framework for Python},
+  url = {https://github.com/uhlmanngroup/Cestimii},
+  version = {0.8},
+  doi = {},
+  date = {2021-10-05},
+}
+```
