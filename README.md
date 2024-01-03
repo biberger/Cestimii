@@ -9,6 +9,8 @@ This Python library was made as part of the Master's thesis "Integral Invariants
 The step to go from a set of surface-covering cubes to a set of occupancy grids can be non-trivial for complex shapes. Thus, we proposed a extension of the framework by Pottmann et al., which uses a more relaxed notion of occupancy grids. This allows the use of a dataset's probability or intensity values for multiscale curvature estimation. 
 As choosing an appropriate scale can be difficult, Cestimii contains a method to efficiently average results over multiple scales at once by reprocessing results from lower scales.
 
+**Update 03.01.2024: I am not planning on continuing this project. If you are interested in this work, please send me a DM. This code was written back when I was just learning Python and migrating from MATLAB, so there are a lot of things I would do differently now. Please keep this in mind.**
+
 ## Installation
 The easiest way to install cestimii is to use the package manager pip for the installation:
 ```
